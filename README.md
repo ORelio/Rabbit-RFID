@@ -26,7 +26,7 @@ These instructions are for advanced users with sufficient knowledge of Linux com
     * Paste the following:
 ```ini
 [Unit]
-Description=Rabbit Home
+Description=Rabbit RFID
 After=local-fs.target network.target systemd-tmpfiles-setup.service
 
 [Service]
